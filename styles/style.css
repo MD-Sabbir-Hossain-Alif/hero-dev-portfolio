@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* sheard style */
+.color-orange {
+    color: #FD6E0A;
+}
+
+.btn {
+    color: white;
+    background: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header {
+    background: #FFF8F3;
+    padding-top: 50px;
+}
+
+nav {
+    width: 71.25%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h2 {
+    font-size: 45px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    list-style: none;
+}
+
+nav ul a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
