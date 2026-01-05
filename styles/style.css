@@ -44,11 +44,6 @@
     margin-bottom: 30px;
 }
 
-.text-center {
-    text-align: center;
-    margin-top: 50px;
-}
-
 header {
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     background-position: center left, bottom right;
@@ -238,4 +233,74 @@ nav ul a {
     color: #757575;
     line-height: 28px;
     margin-bottom: 30px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin: 50px 0 113px 0;
+}
+
+footer {
+    padding: 130px 0;
+    background: #FFF8F3;
+}
+
+.footer-container {
+    width: 71.25%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    gap: 117px;
+}
+
+.social-content h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.social-content p {
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+    max-width: 562px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icons img {
+    width: 24px;
+}
+
+form h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.input-content input[type="text"],
+.input-content input[type="email"],
+.input-content textarea {
+    width: 461px;
+    padding: 18px 0 18px 30px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+}
+
+.input-content textarea {
+    height: 180px;
 }
