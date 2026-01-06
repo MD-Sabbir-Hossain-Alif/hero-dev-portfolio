@@ -22,6 +22,28 @@
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn i{
+margin-right: 10px;    
+}
+
+.btn-white {
+    background: white;
+    color: #FD6E0A;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: white;
+    color: #FD6E0A;
+}
+
+.btn-white:hover {
+    background: #FD6E0A;
+    color: white;
 }
 
 .section-content {
@@ -46,7 +68,7 @@
 
 header {
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
-    background-position: center left, bottom right;
+    background-position: 65px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -94,14 +116,14 @@ nav ul a {
 }
 
 .banner-content h2 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
 
 .banner-content h1 {
-    font-size: 85px;
+    font-size: 80px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
@@ -298,9 +320,5 @@ form h2 {
     width: 461px;
     padding: 18px 0 18px 30px;
     border-radius: 5px;
-    border: 1px solid #757575;
-}
-
-.input-content textarea {
-    height: 180px;
+    border: none;
 }
